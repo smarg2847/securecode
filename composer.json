@@ -1,6 +1,6 @@
 {
     "name": "smarg2847/securecode",
-    "description": "A Laravel package for creating secure codes, providing unique and random n-digit codes for any use.",
+    "description": "A Laravel package to generate secure codes with different validation rules and of upto nth characters long.",
     "type": "library",
     "homepage": "https://github.com/smarg2847/securecode",
     "license": "MIT",
