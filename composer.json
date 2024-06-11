@@ -3,7 +3,7 @@
     "description": "A Laravel package for creating secure codes, providing unique and random n-digit codes for any use.",
     "type": "library",
     "homepage": "https://github.com/smarg2847/securecode",
-    "license": "MIT",
+    "license": "null",
     "authors": [
         {
             "name": "SMARG",
@@ -26,23 +26,12 @@
             "Smarg2847\\SecureCode\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Smarg2847\\SecureCode\\Tests\\": "tests/"
-        }
-    },
     "extra": {
         "laravel": {
             "providers": [
                 "Smarg2847\\SecureCode\\Providers\\SecureCodeProvider"
-            ],
-            "aliases": {
-                "SecureCode": "Smarg2847\\SecureCode\\Facades\\SecureCode"
-            }
+            ]
         }
-    },
-    "scripts": {
-        "test": "vendor/bin/pest"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
