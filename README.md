@@ -30,7 +30,7 @@ Put the following in root composer.json file
 Then install the package via Composer:
 
 ```bash
-composer require smarg2847/secure-code
+composer require smarg2847/securecode
 ```
 
 ### Publish the Config and Migrations
