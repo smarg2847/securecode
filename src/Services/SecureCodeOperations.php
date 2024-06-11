@@ -1,20 +1,20 @@
 <?php
 
-namespace Smarg\SecureCode\Services;
+namespace Smarg2847\SecureCode\Services;
 
 use Illuminate\Support\Facades\Log;
-use Smarg\SecureCode\Services\Traits\ConfigTrait;
-use Smarg\SecureCode\Exceptions\InvalidCodeException;
-use Smarg\SecureCode\Models\SecureCode;
-use Smarg\SecureCode\Services\Validators\NoPalindromeValidator;
-use Smarg\SecureCode\Services\Validators\RepeatingCharactersValidator;
-use Smarg\SecureCode\Services\Validators\MinimumUniqueCharactersValidator;
+use Smarg2847\SecureCode\Services\Traits\ConfigTrait;
+use Smarg2847\SecureCode\Exceptions\InvalidCodeException;
+use Smarg2847\SecureCode\Models\SecureCode;
+use Smarg2847\SecureCode\Services\Validators\NoPalindromeValidator;
+use Smarg2847\SecureCode\Services\Validators\RepeatingCharactersValidator;
+use Smarg2847\SecureCode\Services\Validators\MinimumUniqueCharactersValidator;
 
 /**
  * Class CodeManager
  * This class is used for managing generated codes.
  *
- * @package Smarg\SecureCode\Services
+ * @package Smarg2847\SecureCode\Services
  */
 class SecureCodeOperations
 {

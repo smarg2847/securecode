@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Smarg\SecureCode\Services;
+namespace Smarg2847\SecureCode\Services;
 
-use Smarg\SecureCode\Services\Traits\ConfigTrait;
-use Smarg\SecureCode\Services\Validators\NoPalindromeValidator;
-use Smarg\SecureCode\Services\Validators\RepeatingCharactersValidator;
-use Smarg\SecureCode\Services\Validators\MinimumUniqueCharactersValidator;
+use Smarg2847\SecureCode\Services\Traits\ConfigTrait;
+use Smarg2847\SecureCode\Services\Validators\NoPalindromeValidator;
+use Smarg2847\SecureCode\Services\Validators\RepeatingCharactersValidator;
+use Smarg2847\SecureCode\Services\Validators\MinimumUniqueCharactersValidator;
 
 /**
  *
- * @package Smarg\SecureCode\Services
+ * @package Smarg2847\SecureCode\Services
  */
 class SecureCodeGenerator
 {
