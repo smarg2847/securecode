@@ -83,7 +83,7 @@ if (!$request->secureCode) {
   $customCode = false;
 }
 
-$manager->saveCode($secureCode : $generate->generate(), $customCode); /// 2nd param is important as validations will be performed to the code passed in 1st param is customCode.
+$manager->saveCode($secureCode : $generate->generate(), $customCode); /// 2nd param is important as validations will be performed to the code passed in 1st param if customCode.
 
 echo "Secure code: $secureCode";
 ```
