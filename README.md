@@ -88,17 +88,6 @@ $manager->saveCode($secureCode : $generate->generate(), $customCode); /// 2nd pa
 echo "Secure code: $secureCode";
 ```
 
-### Store a generated Secure Codes
-
-The code generator can handle both, random/automated code generation and manually provided codes The quickest way to get started with generating a secure code is by using the snippet below.
-```php
-use Smarg2847\SecureCode\Services\SecureCodeGenerator;
-
-$generate = new SecureCodeGenerator();
-$secureCode = $generate->generate();
-echo "Secure code: $code";
-```
-
 ### Assigning a Secure Code to a record
 
 To assign a secure code to a primary record in any module, use the following patch method:
