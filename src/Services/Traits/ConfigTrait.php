@@ -1,12 +1,12 @@
 <?php
 
-namespace Smarg\SecureCode\Services\Traits;
+namespace Smarg2847\SecureCode\Services\Traits;
 
 /**
  * Trait ConfigTrait
  * This trait provides methods to retrieve configuration settings for the SecureCode package.
  *
- * @package Smarg\SecureCode\Services\Traits
+ * @package Smarg2847\SecureCode\Services\Traits
  */
 trait ConfigTrait
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Smarg\SecureCode\Providers;
+namespace Smarg2847\SecureCode\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
  * class SecureCodeProvider
  * This class registers the package within Laravel.
  *
- * @package Smarg\SecureCode\Providers
+ * @package Smarg2847\SecureCode\Providers
  */
 class SecureCodeProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Smarg\SecureCode\Models;
+namespace Smarg2847\SecureCode\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
