@@ -35,7 +35,7 @@ composer require smarg2847/securecode
 
 ### Publish the Config and Migrations
 
-You can then publish the package's config file and database migrations by using the following command:
+You should publish the config file and database migrations, run the following command:
 ```bash
 php artisan vendor:publish --provider="Smarg2847\SecureCode\Providers\SecureCodeProvider"
 ```
